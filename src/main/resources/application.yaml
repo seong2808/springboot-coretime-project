@@ -1,3 +1,6 @@
 spring:
   application:
     name: coretime
+
+  profiles:
+    active: dev
