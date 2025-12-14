@@ -3,4 +3,13 @@ spring:
     name: coretime
 
   profiles:
-    active: dev
+    default: dev
+
+    # Common JPA/Hibernate Settings ---
+    jpa:
+      properties:
+        hibernate:
+          physical-strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoreNamingStrategy
+
+      hibernate:
+        ddl-auto: none
