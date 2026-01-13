@@ -1,7 +1,9 @@
 package com.seong.coretime.user.dto;
 
-import lombok.*;
-import org.springframework.data.jpa.repository.JpaRepository;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 
 @NoArgsConstructor
